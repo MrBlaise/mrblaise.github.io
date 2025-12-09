@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630">
+    <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#0b0720"/>
+        <stop offset="1" stop-color="#0a0a2a"/>
+    </linearGradient>
+    <radialGradient id="r1" cx="0.2" cy="0.3" r="0.6">
+        <stop offset="0" stop-color="#9B5CFF" stop-opacity="0.35"/>
+        <stop offset="1" stop-color="#9B5CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r2" cx="0.8" cy="0.2" r="0.55">
+        <stop offset="0" stop-color="#00E5FF" stop-opacity="0.30"/>
+        <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r3" cx="0.6" cy="0.8" r="0.6">
+        <stop offset="0" stop-color="#FF3CAC" stop-opacity="0.25"/>
+        <stop offset="1" stop-color="#FF3CAC" stop-opacity="0"/>
+    </radialGradient>
+    </defs>
+    <rect width="1200" height="630" fill="url(#g1)"/>
+    <rect width="1200" height="630" fill="url(#r1)"/>
+    <rect width="1200" height="630" fill="url(#r2)"/>
+    <rect width="1200" height="630" fill="url(#r3)"/>
+    <text x="80" y="180" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="38"
+        fill="#EAF0FF" font-weight="800">Balázs “Blaise” Rostás</text>
+    <text x="80" y="230" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="26"
+        fill="#B9B4D9">Principal Engineer · AI Platforms · Kubernetes · GitOps · CI/CD</text>
+    <text x="80" y="300" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="22"
+        fill="#D7D3EF">Go, platform engineering, AI and developer infrastructure at scale</text>
+</svg>
