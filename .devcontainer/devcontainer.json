@@ -1,0 +1,30 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/python
+{
+	"name": "Blaise.at static site development",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-bookworm",
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {
+			"moby": true,
+			"installDockerBuildx": true,
+			"installDockerComposeSwitch": true,
+			"version": "latest",
+			"dockerDashComposeVersion": "v2"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"ms-vscode-remote.remote-ssh",
+				"ms-vscode-remote.remote-ssh-edit",
+				"anthropic.claude-code",
+				"EditorConfig.EditorConfig"
+			]
+		}
+	},
+	"postCreateCommand": "curl -fsSL https://claude.ai/install.sh | bash"
+}
